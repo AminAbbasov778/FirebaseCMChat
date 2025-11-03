@@ -54,7 +54,6 @@ class FCMService() : FirebaseMessagingService() {
     override fun onMessageReceived(message: RemoteMessage) {
         super.onMessageReceived(message)
 
-        Log.d(TAG, "Full message: ${message.data}, notification=${message.notification}")
 
         if (isAppInForeground()) {
             return

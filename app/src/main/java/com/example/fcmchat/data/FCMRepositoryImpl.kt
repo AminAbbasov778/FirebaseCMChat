@@ -35,14 +35,11 @@ class FCMRepositoryImpl @Inject constructor(
 
                 val response = api.sendMessage("Bearer $accessToken", request)
                 if (response.isSuccessful) {
-                    Log.d("FcmServiceImpl", "✅ Message sent successfully")
                     Result.success(Unit)
                 } else {
-                    Log.e("FcmServiceImpl", "❌ Error: ${response.code()} ${response.message()}")
                     Result.failure(Exception("FCM send failed: ${response.message()}"))
                 }
             } catch (e: Exception) {
-                Log.e("FcmServiceImpl", "Error sending FCM message", e)
                 Result.failure(e)
             }
         }
