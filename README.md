@@ -13,9 +13,9 @@ The app is built using **MVI (Model-View-Intent)** and **Clean Architecture**, a
 |--------------|
 | <img src="screenshots/Adobe Express - fcmchat1 (online-video-cutter.com).gif" width="1000"> |
 
-| FCM Permission | Sign Up | Home |
+| FCM Permission | Home | Notification |
 |-----------|-------------|-------------|
-| <img src="screenshots/wordssigninscreen.png" width="200"> | <img src="screenshots/wordssignupscreen.png" width="200"> |<img src="screenshots/gamehome.png" width="200"> |
+| <img src="screenshots/fcmnotification.png" width="200"> | <img src="screenshots/fcmhome.png" width="200"> |<img src="screenshots/fcmtopnotification.png" width="200"> |
 
 
 ---
@@ -101,6 +101,7 @@ The app is built using **MVI (Model-View-Intent)** and **Clean Architecture**, a
 4.  **Run the app** on an emulator or physical device.
 
 To test push notifications, you will need two devices (or emulators) running the app. You can then select a user from the list and send them a message.
+
 
 
 
