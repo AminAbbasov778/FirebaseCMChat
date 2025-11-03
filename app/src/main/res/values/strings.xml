@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FCMChat</string>
+       <string name="default_notification_channel_id">chat_messages_channel</string>
+        <string name="msg_token_fmt">FCM Token: %1$s</string>
+</resources>
