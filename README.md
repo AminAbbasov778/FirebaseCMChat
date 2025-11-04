@@ -33,6 +33,7 @@ The app is built using **MVI (Model-View-Intent)** and **Clean Architecture**, a
 
 ---
 
+
 ## 🧠 Technologies Used
 
 | Technology | Purpose |
@@ -101,6 +102,7 @@ The app is built using **MVI (Model-View-Intent)** and **Clean Architecture**, a
 4.  **Run the app** on an emulator or physical device.
 
 To test push notifications, you will need two devices (or emulators) running the app. You can then select a user from the list and send them a message.
+
 
 
 
