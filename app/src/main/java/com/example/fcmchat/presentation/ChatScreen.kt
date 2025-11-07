@@ -45,6 +45,12 @@ fun ChatScreen(
 
     val granted = remember { mutableStateOf(false) }
 
+    LaunchedEffect(state.isBack) {
+        if (state.isBack) {
+            navControlller.popBackStack()
+        }
+    }
+
 
 
 
