@@ -48,10 +48,10 @@ fun ChatInputBar(
     Surface(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(topStart = 12.dp, bottomStart = 12.dp))
+            .clip(RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp))
             .background(
                 color = Color.Transparent,
-                shape = RoundedCornerShape(topStart = 12.dp, bottomStart = 12.dp)
+                shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp)
             ),
         color = Color(0xFF1A1F3A),
         shadowElevation = 12.dp
@@ -73,7 +73,8 @@ fun ChatInputBar(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            Box(
+
+        Box(
                 modifier = Modifier
                     .weight(1f)
                     .shadow(4.dp, RoundedCornerShape(24.dp))

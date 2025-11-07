@@ -72,7 +72,9 @@ class FCMService() : FirebaseMessagingService() {
             val body = message.data["body"] ?: message.data["message"] ?: "Mesaj tapılmadı"
             showNotification(title, body)
         }
+
     }
+
 
     private fun showNotification(title: String, body: String) {
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
